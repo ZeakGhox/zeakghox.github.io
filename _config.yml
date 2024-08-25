@@ -21,8 +21,6 @@
 title: MSDS 696 Data Practicum II - Course Project
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  This repository houses components for my data science practicum course. 
-  The project is descibed in more detail in the project proposal.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 

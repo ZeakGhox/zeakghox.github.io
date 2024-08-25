@@ -2,7 +2,7 @@
 layout: post
 title:  Week 6 – Progress Report
 ---
-**Understanding the Impacts of Economics and Environmental Factors on Global Health Trends**
+**Life Expectancy and the Impact of Economic and Environmental Factors**
 
 MSDS 696 – Data Science Practicum II
 
