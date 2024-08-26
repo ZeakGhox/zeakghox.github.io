@@ -11,45 +11,48 @@ layout: home
 
 # Process and Methodology
 
-## Load individual datasets and consolidate them into single project dataset ([R Code](/assets/1_LoadDatasets.r))
+## Load individual datasets and consolidate them into single project dataset ([R Code](/assets/1_LoadDatasets.r))([Dataset v1](/assets/df.csv))
 
-* Environmental
-    * Greenhouse Gas Emissions
-    * PM2.5 Air Pollution
-    * Natural Disasters 
-* Economic
-    * GDP (Gross Domestic Product)
-    * Employment Rate
-    * Inequality Index
-    * Inflation
-* Health
-    * Cancer Deaths
-    * Lower Respiratory Infection Deaths
-    * Deaths from all Causes
-    * Life Expectancy at Birth
+* Original datasets needed to be transposed and have columns aligned
+* Data was reduced from representing countries around the world to just Canada, Mexico, and the United States, this was done to ease processing requirements
+* Variable data was created using the following categories/sub-categories: 
+	* Environmental
+    	* Greenhouse Gas Emissions
+    	* PM2.5 Air Pollution
+    	* Natural Disasters 
+	* Economic
+    	* GDP (Gross Domestic Product)
+    	* Employment Rate
+    	* Inequality Index
+    	* Inflation
+	* Health
+    	* Cancer Deaths
+   		* Lower Respiratory Infection Deaths
+    	* Deaths from all Causes
+    	* Life Expectancy at Birth
 
-## Clean-up initial dataset and create updated, version 2, dataset
+## Clean-up initial dataset and create updated, version 2, dataset ([R Code](/assets/2_CleanupDatasetV1_.r))([Dataset v2](/assets/dfv2.csv))
 
 * Remove years 1900 - 1950 due to an overwhelming lack of data across variables
     * Microsoft Excel was used to update dataset
 * Renamed “Gini Coefficient” to “Inequality Index” to make the name more easily understood
 * Removed spaces and standardized the header row
 
-## View summary statistics for dataset ver. 2
+## View summary statistics for dataset ver. 2 ([R Code](/assets/3_SummaryStatisticsDatasetV2.r))
 
 * There are still quite a few missing observations and extraneous columns in the dataset
 
-## Clean-up dataset ver. 2, and create updated, version 3, dataset
+## Clean-up dataset ver. 2, and create updated, version 3, dataset ([R Code](/assets/4_CleanupDatasetV2_.r))([Dataset v3](/assets/dfv3.csv))
 
 * Reduced the dataset to 51 years, eliminated periods outside of 1960 - 2021
 * Deleted CountryName and SeriesName columns to have an all numeric dataset
 * Deleted the AnnualPM2.5Exposure column because more than 80% of the observations were blank
 
-## View summary statistics for dataset ver. 3
+## View summary statistics for dataset ver. 3 ([R Code](/assets/5_CleanupDatasetV3_.r))
 
 * Greatly reduced the number of missing observations
 
-## Perform feature reduction and finalize an updated, version 4, dataset
+## Perform feature reduction and finalize an updated, version 4, dataset ([R Code](/assets/6_FinalizedDatasetV4.r))([Dataset v4](/assets/dfv4.csv))
 
 * Imputed values for EmploymentRatio, InequalityIndex, and NaturalDisasters. EmploymentRatio and InequalityIndex were filled using and average of the previous and next values, NaturalDisasters was filled substituting 0 in place of missing values
 * Based on the correlation plot of variables, Died and Died from Cancer were highly correlated with Annual Greenhouse Gas Emissions, 0.97 and 0.98, respectively. These columns were deleted as a result
@@ -58,7 +61,7 @@ layout: home
 
 ![Correlation Plot](/assets/correlation_plot.jpeg)
 
-## Run the Random Forest algorithm by training and modeling the dataset ver 4
+## Run the Random Forest algorithm by training and modeling the dataset ver 4 ([R Code](/assets/7_RunRandomForest.r))
 
 * The model was partitioned into 50/50 training and testing data frames
 * LifeExpectancy was used as the dependent variable. Given that this variable was numeric the Random Forest algorithm assumed Regression rather than Classification
