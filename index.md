@@ -21,19 +21,19 @@ The final presentation for the project can be viewed [here](https://youtu.be/szb
 * Data was reduced from representing countries around the world to just Canada, Mexico, and the United States, this was done to ease processing requirements
 * Variable data was created using the following categories/sub-categories...
 * Environmental
-	* Greenhouse Gas Emissions
-	* PM2.5 Air Pollution
-	* Natural Disasters 
+	* Greenhouse Gas Emissions ([Annual Greenhouse Gas Emissions by World Region](https://ourworldindata.org/co2-and-greenhouse-gas-emissions), 1850 to 2022 from Our World in Data)
+	* PM2.5 Air Pollution ([Exposure to PM2.5 Air Pollution vs. GDP per Capital, 2019](https://ourworldindata.org/outdoor-air-pollution) from Our World in Data)
+	* Natural Disasters ([All Natural Disasters 1900-2021 / EOSDIS](https://www.kaggle.com/datasets/brsdincer/all-natural-disasters-19002021-eosdis?resource=download) from Kaggle) 
 * Economic
-	* GDP (Gross Domestic Product)
-	* Employment Rate
-	* Inequality Index
-	* Inflation
+	* GDP (Gross Domestic Product) ([Gross Domestic Product](https://databank.worldbank.org/home) from The World Bank’s World Development Indicators)
+	* Employment Rate ([Employment to Population Ratio](https://databank.worldbank.org/home) from The World Bank’s World Development Indicators)
+	* Inequality Index ([National Gini Coefficient](https://databank.worldbank.org/home) measures from The World Bank’s World Development Indicators)
+	* Inflation ([Annual Inflation](https://databank.worldbank.org/home) measure from The World Bank’s World Development Indicators)
 * Health
-	* Cancer Deaths
-	* Lower Respiratory Infection Deaths
-	* Deaths from all Causes
-	* Life Expectancy at Birth
+	* Cancer Deaths ([Malignant Neoplasms](https://platform.who.int/mortality/themes/theme-details/topics/topic-details/MDB/malignant-neoplasms) from the WHO Mortality Database)
+	* Lower Respiratory Infection Deaths ([Lower Respiratory Infections](https://platform.who.int/mortality/themes/theme-details/topics/indicator-groups/indicator-group-details/MDB/lower-respiratory-infections) from the WHO Mortality Database)
+	* Deaths from all Causes ([All Causes of Death](https://platform.who.int/mortality/themes/theme-details/MDB/all-causes) from the WHO Mortality Database)
+	* Life Expectancy at Birth ([Life Expectancy at Birth, In a Given Year](https://ourworldindata.org/life-expectancy) from Our World in Data)
 
 ## Clean-up initial dataset and create updated, version 2, dataset ([R Code](/assets/2_CleanupDatasetV1_.r))([Dataset v2](/assets/dfv2.csv))
 
