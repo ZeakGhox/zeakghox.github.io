@@ -54,13 +54,24 @@ Life Expectancy and the Impact of Economic and Environmental Factors
 * The variable DiedLowerResp was deleted as it was felt to be implicit in LifeExpectancy
 * Additional variables DiedPer100K, DiedCancerPer100K, and DiedLowerRespPer100K were deleted due to the difference in measurement scale with the remaining variables
 
+![Correlation Plot](/assets/correlation_plot.jpeg)
+
 ## Run the Random Forest algorithm by training and modeling the dataset ver 4
 
 * The model was partitioned into 50/50 training and testing data frames
 * LifeExpectancy was used as the dependent variable. Given that this variable was numeric the Random Forest algorithm assumed Regression rather than Classification
-## 1. **and Findings**
+
+## Results and Findings**
+
 * The correlation between the predicted Life Expectancy and the test cases is 0.96, meaning that the model is highly accurate in its predictions.
+
+![Prediction vs Test Correlation](/assets/predicted_results_plot.jpeg)
+
 * Any given prediction of the model can be expected to be incorrect by about 1 year. The mean absolute error (MAE) is 1.00
 * The lowest MAE was found when the model sampled 4 random variables at each split in a tree 
 * Annual Greenhouse Gas Emissions has the greatest impact on Life Expectancy, followed by GDP, and the Inequality Index (Gini Coefficient)
- 
+
+![Variable Importance](/assets/Variable_Importance.jpeg)
+
+
+

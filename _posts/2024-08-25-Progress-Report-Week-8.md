@@ -16,7 +16,7 @@ This project seeks to understand the relationship that economic impacts and envi
 
 **Project Timeline**
 
-
+![Timeline](/assets/ProjectPlan_Wk8.jpeg)
 
 **Planned Work for the Week:**
 
