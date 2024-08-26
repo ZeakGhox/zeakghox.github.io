@@ -15,21 +15,21 @@ layout: home
 
 * Original datasets needed to be transposed and have columns aligned
 * Data was reduced from representing countries around the world to just Canada, Mexico, and the United States, this was done to ease processing requirements
-* Variable data was created using the following categories/sub-categories: 
-	* Environmental
-    	* Greenhouse Gas Emissions
-    	* PM2.5 Air Pollution
-    	* Natural Disasters 
-	* Economic
-    	* GDP (Gross Domestic Product)
-    	* Employment Rate
-    	* Inequality Index
-    	* Inflation
-	* Health
-    	* Cancer Deaths
-   		* Lower Respiratory Infection Deaths
-    	* Deaths from all Causes
-    	* Life Expectancy at Birth
+* Variable data was created using the following categories/sub-categories...
+* Environmental
+	* Greenhouse Gas Emissions
+	* PM2.5 Air Pollution
+	* Natural Disasters 
+* Economic
+	* GDP (Gross Domestic Product)
+	* Employment Rate
+	* Inequality Index
+	* Inflation
+* Health
+	* Cancer Deaths
+	* Lower Respiratory Infection Deaths
+	* Deaths from all Causes
+	* Life Expectancy at Birth
 
 ## Clean-up initial dataset and create updated, version 2, dataset ([R Code](/assets/2_CleanupDatasetV1_.r))([Dataset v2](/assets/dfv2.csv))
 
