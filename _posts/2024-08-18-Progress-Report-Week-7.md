@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Week 7 – Progress Report
+title:  Week 7
 ---
 **Life Expectancy and the Impact of Economic and Environmental Factors**
 

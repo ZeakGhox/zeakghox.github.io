@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Weeks 1-5 – Progress Report Summary
+title:  Weeks 1-5 – Summary
 ---
 ~~Predicting Reversal of High Blood Pressure Using Machine Learning~~
 
