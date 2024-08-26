@@ -4,6 +4,7 @@ title: Main
 ---
 # Life Expectancy and the Impact of Economic and Environmental Factors
 
+![Presentation Cover](/assets/FinalPresentationThumbnail.jpg)
 
 # Overview
 
