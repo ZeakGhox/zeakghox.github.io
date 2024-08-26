@@ -9,6 +9,8 @@ title: Main
 
 * This project seeks to understand the relationship that economic impacts and environmental factors have on global health issues. Machine learning models will be employed to analyze the impacts of economic and environmental shifts.
 
+The final presentation for the project can be viewed [here](https://youtu.be/szbSGTKThKg).
+
 
 # Process and Methodology
 
