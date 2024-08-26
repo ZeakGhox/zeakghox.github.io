@@ -11,7 +11,7 @@ layout: home
 
 # Process and Methodology
 
-## Load individual datasets and consolidate them into single project dataset [R Code](/assets/1_LoadDatasets.r)
+## Load individual datasets and consolidate them into single project dataset ([R Code](/assets/1_LoadDatasets.r))
 
 * Environmental
     * Greenhouse Gas Emissions
