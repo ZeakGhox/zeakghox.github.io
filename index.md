@@ -9,7 +9,7 @@ Life Expectancy and the Impact of Economic and Environmental Factors
 
 # Process and Methodology
 
-## Load individual datasets and consolidate them into single project dataset
+## Load individual datasets and consolidate them into single project dataset [R Code](/assets/1_LoadDatasets.r)
 
 * Environmental
     * Greenhouse Gas Emissions
