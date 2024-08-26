@@ -1,11 +1,13 @@
 ---
 layout: home
 ---
-Life Expectancy and the Impact of Economic and Environmental Factors
+# Life Expectancy and the Impact of Economic and Environmental Factors
+
 
 # Overview
 
 * This project seeks to understand the relationship that economic impacts and environmental factors have on global health issues. Machine learning models will be employed to analyze the impacts of economic and environmental shifts.
+
 
 # Process and Methodology
 
@@ -61,7 +63,7 @@ Life Expectancy and the Impact of Economic and Environmental Factors
 * The model was partitioned into 50/50 training and testing data frames
 * LifeExpectancy was used as the dependent variable. Given that this variable was numeric the Random Forest algorithm assumed Regression rather than Classification
 
-## Results and Findings**
+## Results and Findings
 
 * The correlation between the predicted Life Expectancy and the test cases is 0.96, meaning that the model is highly accurate in its predictions.
 
